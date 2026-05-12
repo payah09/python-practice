@@ -10,6 +10,7 @@ class FileManager:
             print(f"File found: {self.filename} ")
             return file_exists
         print(f"Error: {self.filename} not found. Please download the file from LMS.")
+        exit()
         return file_exists
     def create_output_folder(self, folder='output'):
         print("Checking output folder...")
